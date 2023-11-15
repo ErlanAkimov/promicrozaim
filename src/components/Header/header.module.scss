@@ -1,0 +1,44 @@
+.wrapper {
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &Outer {
+        background-color: #fff;
+        border-bottom: 1px solid #f0f0f0;
+    }
+}
+
+.leftSide {
+    display: flex;
+    align-items: flex-end;
+    column-gap: 120px;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 600;
+
+    span {
+        font-weight: 800;
+        color: rgb(197, 98, 98);
+    }
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+
+    .navItem {
+        font-size: 17px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+}
